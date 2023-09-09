@@ -25,7 +25,7 @@
 }
 
 .container {
-    max-width: 1140px;
+    max-width: 1155px;
     padding-left: 12px;
     padding-right: 12px;
     margin-right: auto;
@@ -73,6 +73,11 @@
     font-size: 14px;
     font-weight: 500;
 
+
+}
+.product:hover{
+    color: red;
+    transition: .5s;
 }
 
 .btn {
@@ -180,6 +185,8 @@
 
 .img {
     margin-top: 150px;
+    width: 100%;
+
 }
 
 .btn-3:hover {
@@ -187,15 +194,6 @@
     background-color: yellow;
 }
 
-.container2 {
-    max-width: 1140px;
-    padding-left: 12px;
-    padding-right: 12px;
-    margin-right: auto;
-    margin-left: auto;
-    background-color: white;
-
-}
 
 .instant {
     color: #2B353E;
@@ -205,6 +203,7 @@
     font-weight: 500;
 
     text-align: center;
+    padding-top: 90px;
 }
 
 .para2 {
@@ -216,11 +215,14 @@
     text-align: center;
     font-family: 'Roboto', sans-serif;
     color: #2B353EB2;
+    padding-top: 30px;
+
 }
 
 .img2 {
     width: 100%;
     max-width: 1061px;
+    padding-top: 92px;
 }
 
 .bg-light {
@@ -242,7 +244,6 @@
 
 .img-3 {
     width: 100%;
-    min-width: 776px;
 }
 
 .para3 {
@@ -272,6 +273,10 @@
     margin-top: 60px;
 
 }
+.btn-4:hover {
+    color: #1E71FF;
+    background-color: yellow;
+}
 
 .btn-5 {
     color: #1E71FF;
@@ -290,8 +295,14 @@
     padding-right: 48px;
     cursor: pointer;
     margin-top: 60px;
+    margin-left: 30px;
 
 
+}
+.btn-5:hover {
+    color: #1E71FF;
+    background-color: yellow;
+    border: red;
 }
 
 .line {
@@ -373,24 +384,54 @@
     padding-top: 18px;
 
 }
-.col2{
+
+.col2 {
     width: 16.66%;
     padding-left: 12px;
     padding-right: 12px;
 }
-.help{
+
+.help {
     padding-top: 90px;
     font-family: 'Poppins', sans-serif;
-    
-        font-size: 18px;
-        font-weight: 400;
-        color: #2B353E;
+
+    font-size: 18px;
+    font-weight: 400;
+    color: #2B353E;
 
 }
-.support{
-font-family: 'Roboto', sans-serif;
-        font-size: 13px;
-        font-weight: 400;
-       color: #2B353EB2;
-       padding-top: 12px;
+.menu{
+    float: right;
+    left: 20px;
+    top: 50px;
 }
+
+.support {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #2B353EB2;
+    padding-top: 12px;
+}
+
+@media (max-width:768px) {
+    .col6 {
+        width: 100%;
+    }
+
+    .col2 {
+        width: 100%;
+    }
+
+    .navbar{
+        display: none;
+    }
+
+}
+@media(min-width:768px){
+    .menu{
+        display: none;
+    }
+
+}
+
