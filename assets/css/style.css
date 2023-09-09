@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;700&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.vh-100 {
+    min-height: 100vh;
+}
+
+.bg-blue {
+    background-color: #1E71FF;
+
+}
+
+.container {
+    max-width: 1140px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.logo {
+
+    padding-top: 35px;
+
+
+
+}
+
+.space-btwn {
+    justify-content: space-between;
+}
+
+.chat {
+    font-family: 'Poppins', sans-serif;
+
+    font-size: 26px;
+    font-weight: 600;
+    color: white;
+
+
+}
+
+.app {
+
+    font-weight: 300;
+
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    padding-right: 30px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.btn {
+
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 210px;
+    border: 2px solid;
+    background-color: #4B8DFF;
+    border: none;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+
+
+}
+
+.row {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.col6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.have {
+    font-family: 'Poppins', sans-serif;
+
+    font-size: 75px;
+    font-weight: 600;
+    color: white;
+
+}
+
+.para {
+
+    font-size: 21px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+
+}
+
+.btn-2 {
+    color: #1E71FF;
+    background-color: white;
+    border-radius: 60px;
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 48px;
+    padding-right: 48px;
+    cursor: pointer;
+    margin-top: 60px;
+
+
+}
+
+.btn:hover {
+    color: #1baa71;
+    background-color: #FFFFFF;
+}
+
+.btn-3 {
+    color: #FFFFFF;
+    background-color: #1E71FF;
+    border-radius: 60px;
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    border: 2px solid white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 48px;
+    padding-right: 48px;
+    cursor: pointer;
+    margin-top: 60px;
+    margin-left: 35px;
+
+
+}
+
+.btn-2:hover {
+    color: red;
+    background-color: #1baa71;
+}
+
+.img {
+    margin-top: 150px;
+}
+
+.btn-3:hover {
+    color: #1E71FF;
+    background-color: yellow;
+}
+
+.container2 {
+    max-width: 1140px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+
+}
+
+.instant {
+    color: #2B353E;
+    font-family: 'Poppins', sans-serif;
+
+    font-size: 45px;
+    font-weight: 500;
+
+    text-align: center;
+}
+
+.para2 {
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #2B353EB2;
+}
+
+.img2 {
+    width: 100%;
+    max-width: 1061px;
+}
+
+.bg-light {
+    background-color: #E8F1FF;
+}
+
+.perfect {
+
+    font-size: 45px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #2B353E;
+
+}
+
+.align-item {
+    align-items: center;
+}
+
+.img-3 {
+    width: 100%;
+    min-width: 776px;
+}
+
+.para3 {
+
+    font-size: 21px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #2B353EB2;
+
+}
+
+.btn-4 {
+    color: #FFFFFF;
+    background-color: #1E71FF;
+    border-radius: 60px;
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    border: 2px solid white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 48px;
+    padding-right: 48px;
+    cursor: pointer;
+    margin-top: 60px;
+
+}
+
+.btn-5 {
+    color: #1E71FF;
+    background-color: #E8F1FF;
+    border-radius: 60px;
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid #1E71FF;
+
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 48px;
+    padding-right: 48px;
+    cursor: pointer;
+    margin-top: 60px;
+
+
+}
+
+.line {
+    width: 167px;
+    border: 1px solid #2B353E26;
+    margin-top: 90px;
+}
+
+.svg {
+    margin-top: 42px;
+
+}
+
+.para4 {
+    padding-top: 42px;
+    padding-left: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: #2B353EB2;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+
+
+
+
+
+}
+
+.differ {
+    font-size: 18px;
+    font-weight: 700;
+
+    font-family: 'Roboto', sans-serif;
+    color: #2B353EB2;
+
+
+
+
+}
+
+.col4 {
+    width: 33.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.last-head {
+
+
+    color: #1E71FF;
+    font-size: 26px;
+    font-weight: 500;
+
+
+    font-family: 'Poppins', sans-serif;
+    padding-top: 90px;
+
+
+
+}
+
+.lst {
+    color: #1E71FF;
+    font-size: 26px;
+    font-weight: 600;
+
+
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.para5 {
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 15px;
+    font-weight: 400;
+    color: #2B353EB2;
+    padding-top: 18px;
+
+}
+.col2{
+    width: 16.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.help{
+    padding-top: 90px;
+    font-family: 'Poppins', sans-serif;
+    
+        font-size: 18px;
+        font-weight: 400;
+        color: #2B353E;
+
+}
+.support{
+font-family: 'Roboto', sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+       color: #2B353EB2;
+       padding-top: 12px;
+}
