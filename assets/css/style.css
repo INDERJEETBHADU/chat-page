@@ -75,7 +75,8 @@
 
 
 }
-.product:hover{
+
+.product:hover {
     color: red;
     transition: .5s;
 }
@@ -153,8 +154,9 @@
 }
 
 .btn:hover {
-    color: #1baa71;
+    color: blue;
     background-color: #FFFFFF;
+    border: 2px solid white;
 }
 
 .btn-3 {
@@ -179,7 +181,7 @@
 }
 
 .btn-2:hover {
-    color: red;
+    color: white;
     background-color: #1baa71;
 }
 
@@ -192,6 +194,7 @@
 .btn-3:hover {
     color: #1E71FF;
     background-color: yellow;
+    border: none;
 }
 
 
@@ -221,7 +224,7 @@
 
 .img2 {
     width: 100%;
-    max-width: 1061px;
+    /* max-width: 1061px; */
     padding-top: 92px;
 }
 
@@ -273,9 +276,11 @@
     margin-top: 60px;
 
 }
+
 .btn-4:hover {
     color: #1E71FF;
     background-color: yellow;
+    border: 2px solid white;
 }
 
 .btn-5 {
@@ -287,22 +292,24 @@
 
     font-size: 16px;
     font-weight: 500;
-    text-align: center;
+    
 
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 48px;
     padding-right: 48px;
     cursor: pointer;
-    margin-top: 60px;
+   
     margin-left: 30px;
 
 
 }
+
 .btn-5:hover {
     color: #1E71FF;
     background-color: yellow;
     border: red;
+    border: none;
 }
 
 .line {
@@ -400,7 +407,8 @@
     color: #2B353E;
 
 }
-.menu{
+
+.menu {
     float: right;
     left: 20px;
     top: 50px;
@@ -423,15 +431,43 @@
         width: 100%;
     }
 
-    .navbar{
-        display: none;
+  
+}
+
+
+
+ @media (max-width:768px){
+    .mobile{
+        width: 100%;
+            background-color: khaki;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: fixed;
+            top: 0;
+            right: -100%;
+            gap: 30px;
+
+        
+
+
     }
 
 }
-@media(min-width:768px){
+input[type="checkbox"]:checked+.mobile {
+    right: 0;
+}
+@media( min-width:768px){
     .menu{
         display: none;
     }
 
 }
 
+.menu{
+    z-index: 2;
+    
+    
+}
