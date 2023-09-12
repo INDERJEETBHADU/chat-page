@@ -182,7 +182,8 @@
 
 .btn-2:hover {
     color: white;
-    background-color: #1baa71;
+    background-color: #1E71FF;
+    border: 2px solid white;
 }
 
 .img {
@@ -193,7 +194,7 @@
 
 .btn-3:hover {
     color: #1E71FF;
-    background-color: yellow;
+    background-color:white;
     border: none;
 }
 
@@ -279,7 +280,7 @@
 
 .btn-4:hover {
     color: #1E71FF;
-    background-color: yellow;
+    background-color: white;
     border: 2px solid white;
 }
 
@@ -306,8 +307,8 @@
 }
 
 .btn-5:hover {
-    color: #1E71FF;
-    background-color: yellow;
+    color: white;
+    background-color:#1E71FF;
     border: red;
     border: none;
 }
@@ -449,6 +450,8 @@
             top: 0;
             right: -100%;
             gap: 30px;
+            transition:  400ms linear ;
+            
 
         
 
